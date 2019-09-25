@@ -1,0 +1,30 @@
+{
+  "name": "PixelSmashOnline",
+  "version": "1.0.0",
+  "description": "Super Smash-like multiplayer game",
+  "main": "public/src/js/server/StartServer.js",
+  "scripts": {
+    "start": "node public/src/js/server/StartServer.js"
+  },
+  "engines": {
+    "node": "10.16.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LGala/PixelSmashOnline.git"
+  },
+  "keywords": [
+    "pixelsmash"
+  ],
+  "author": "lorenzo galafassi",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/LGala/PixelSmashOnline/issues"
+  },
+  "homepage": "https://github.com/LGala/PixelSmashOnline#readme",
+  "dependencies": {
+    "ejs": "^2.6.2",
+    "express": "^4.17.1",
+    "socket.io": "^2.2.0"
+  }
+}
